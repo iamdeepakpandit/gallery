@@ -79,11 +79,17 @@ body {
 .col-2 {
     grid-column: span 2
 }
-/* 
-#Sun {
-    background-position: center;
-}
 
-#Waterfalls {
-    background-position: center;
-} */
+
+/* Media Querior */
+
+@media screen and (max-width: 1024px) {
+ 
+    .container {
+        flex-direction: column;
+    }
+
+    .gallery {
+        width: 80%;
+    }
+}
